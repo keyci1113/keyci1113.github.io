@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/particle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <meta charset="utf-8">
+
+  <title>Your Weight on the Galaxy</title>
+
+</head>
+
+<body class="no-scroll">
+  <div id="particles-js"></div>
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+
+  <div class=" maintitle">
+    <h1>Tu peso en la Galaxia</h1>
+  </div>
+  <div class="container">
+
+    <div class="text-container">
+      <p>Veamos cual seria tu peso en otros planetas.</p>
+      <p>Quien sabe? Tal vez un dia llegues a el!</p>
+    </div>
+
+    <!-- <form class="" method="post" id="form">-->
+    <div class="form-container">
+
+      <div class="input-container">
+        <input type="text" class="input" name="userweight" placeholder="Pon tu peso aqui" value="" id="userweight">
+
+      </div>
+      <div class="input-container">
+        <select class="" class="selector" name="selectplanet" id="selected_planet">
+          <option selected value="">Selecciona tu planeta</option>
+          <option value="Mercury">Mercurio</option>
+          <option value="Venus">Venus</option>
+          <option value="Mars">Marte</option>
+          <option value="Jupyter">Jupiter</option>
+          <option value="Saturn">Saturno</option>
+          <option value="Uranus">Urano</option>
+          <option value="Neptune">Neptuno</option>
+          <option value="Pluto">Pluton</option>
+
+          <option value="Kepler62B">Para mi amorcito</option>
+        </select>
+
+      </div>
+      <div class="input-container">
+
+        <button type="button" class="button" name="button" id="btnletsgo" onclick="data()">Let's Go!</button>
+      </div>
+
+
+    </div>
+    <div class="input-container">
+      <label for="" class="label-container" id="labelresult"></label>
+    </div>
+    <div class="kepler animate__animated animate__zoomInDown " id="kepler">
+      <div class=" text-container-special text animate__animated animate__zoomInDown__repeat-2" id="special">
+
+        <p>Tengo al novio mas hermoso que puedo pedir a pesar de que el no lo crea,lo adoro con todo mi ser,
+          y es la persona mas especial que pude conocer, y que espero seguir teniendo en mi vida.Te amo con todo mi ser,mi corazon
+          y mi alma,cada cosa que haces por mi es hermosa, y la aprecio muchisimo,gracias por estar junto a mi estos 12 meses,
+          Te adoro mi amorcito.
+          ♥ Eres el amor de mi vida, te amo muchisimo, Mi amorcito bello
+          Alex ♥</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- particles.js container -->
+  <ul class="wrapper">
+    <div class="sun">
+      <div class="star"></div>
+    </div>
+    <div class="mercury">
+      <div class="planet">
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div class="venus">
+      <div class="planet">
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div class="earth">
+      <div class="planet">
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div class="mars">
+      <div class="planet">
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div class="jupiter">
+      <div class="planet">
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div class="saturn">
+      <div class="planet">
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div class="uranus">
+      <div class="planet">
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div class="neptune">
+      <div class="planet">
+        <div class="shadow"></div>
+      </div>
+    </div>
+  </ul>
+  <!--</form> -->
+</body>
+<script type='text/javascript' src='http://d3js.org/d3.v3.min.js'></script>
+<script type='text/javascript' src='http://d3js.org/topojson.v1.min.js'></script>
+<script type="text/javascript" src="js\code.js"> </script>
+<script type="text/javascript" src="js\topojson.min.js"> </script>
+<script type="text/javascript" src="js\topojson.js"> </script>
+<script type="text/javascript" src="js\planetaryjs.min.js"> </script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="js/particles.js"></script>
+
+</html>
